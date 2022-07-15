@@ -2184,13 +2184,9 @@ header .circle {
     padding: 8rem 0 5rem 0;
   }
 
- /* .contact-info {
-    display: none;
-  } */
-
   .contact-box {
-    padding: 2.3rem 2rem;
-    border-radius: 30px;
+    padding: 2rem 1.7rem;
+    border-radius: 25px;
   }
 
   .contact:before {

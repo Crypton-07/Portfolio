@@ -2105,7 +2105,7 @@ header .circle {
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 540px) {
   .container {
     padding: 0 2rem;
   }

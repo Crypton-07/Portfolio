@@ -2088,6 +2088,10 @@ header .circle {
     padding-top: 0.5rem;
   }
 
+  .info-text {
+    font-size: 0.95rem;
+  }
+
   .information-wrap {
     margin-top: 0.7rem;
   }
@@ -2164,6 +2168,10 @@ header .circle {
 @media (max-width: 600px) {
   .grid-item {
     width: 100%;
+  }
+
+  .info-text {
+    font-size: 0.9rem;
   }
 }
 
@@ -2246,9 +2254,13 @@ header .circle {
     padding: 8rem 0 5rem 0;
   }
 
-  /* .contact-info {
+  .info-text {
+    font-size: 0.8rem;
+  }
+
+  .contact-info {
     display: none;
-  } */
+  }
 
   .contact-box {
     padding: 2.3rem 2rem;
@@ -2268,6 +2280,7 @@ header .circle {
     padding: 0.8rem 1.4rem;
     margin: 0.25rem 0;
   }
+
 }
 
 /* End Responsive */

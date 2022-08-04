@@ -239,7 +239,7 @@ nav .container {
 }
 
 .logo {
-  width: 175px;
+  width: 10rem;
   display: flex;
   align-items: center;
 }
@@ -353,11 +353,11 @@ nav.open .links {
 
 .header-content .image .img-element {
   border-radius: 18px;
-  max-width: 450px;
+  max-width: 22rem;
   transition: 0.3s ease-in;
 }
 
-.header-content .image .img-element:hover{
+.header-content .image .img-element:hover {
   transform: scale(1.03);
 }
 
@@ -757,6 +757,48 @@ header .circle {
 .about .column-1 {
   position: relative;
 }
+
+.skills-icon {
+  width: 100%;
+  font-size: 4.5rem;
+
+}
+
+.about .column-2 .skills-icon {
+  z-index: 2;
+  position: absolute;
+}
+
+.about .column-2 .html {
+  color: red;
+  left: 13rem;
+  bottom: 6.5rem;
+}
+
+.about .column-2 .react {
+  color: #61DBFB;
+  left: 22rem;
+  bottom: 0.15rem;
+}
+
+.about .column-2 .js {
+  color: #F0DB4F;
+  left: 20rem;
+  top: 5.5rem;
+}
+
+.about .column-2 .css {
+  color: #2565AE;
+  left: 6.5rem;
+  top: 5.5rem;
+}
+
+.about .column-2 .node {
+  color: #68A063;
+  left: 2.2rem;
+  bottom: 0.15rem;
+}
+
 
 .about .column-1:before {
   content: "About";
@@ -1413,6 +1455,11 @@ header .circle {
     padding-bottom: 0.65rem;
   }
 
+  .header-content .image .img-element {
+    transition: 0.3s ease-in;
+    width: 21rem;
+  }
+
   .title:before {
     margin-bottom: 0.2rem;
     font-size: 0.8rem;
@@ -1452,6 +1499,11 @@ header .circle {
 
   .column-2 {
     margin-left: 1rem;
+  }
+
+  .about .column-2 .skills-icon {
+    width: 100%;
+    font-size: 3.5rem;
   }
 
   .overlay.overlay-lg .shape {
@@ -1495,7 +1547,7 @@ header .circle {
   }
 
   /* .header-content .image .img-element {
-    max-width: 500px;
+    max-width: 400px;
   } */
 
   nav .container {
@@ -1508,7 +1560,7 @@ header .circle {
   }
 
   .logo {
-    width: 65px;
+    width: 7rem;
   }
 
   .links a {
@@ -1523,7 +1575,8 @@ header .circle {
   }
 
   .header-title {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
   }
 
   .header-content .text {
@@ -1665,7 +1718,7 @@ header .circle {
     margin-bottom: 0.2rem;
   }
 
-  .blog-info > * {
+  .blog-info>* {
     font-size: 0.75rem !important;
   }
 
@@ -1833,6 +1886,13 @@ header .circle {
     margin-top: 1rem;
   }
 
+  .about .column-2 .skills-icon {
+    font-size: 3rem;
+    width: 100%;
+    position: static;
+    margin: 5rem 0;
+  }
+
   .hamburger-menu {
     display: flex;
   }
@@ -1842,13 +1902,15 @@ header .circle {
   }
 
   .header-title {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
-  .header-content .image {
-    max-width: 400px;
-    margin: 0 auto;
+  .header-content .image .img-element {
+    max-width: 19rem;
+    margin: 10px auto;
   }
+
+
 
   header .column-1 {
     max-width: 550px;
@@ -2183,6 +2245,10 @@ header .circle {
   .contact {
     padding: 8rem 0 5rem 0;
   }
+
+  /* .contact-info {
+    display: none;
+  } */
 
   .contact-box {
     padding: 2.3rem 2rem;
